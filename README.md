@@ -10,17 +10,23 @@ automation, and API deployment.
 
 ## Key Contributions
 
-- Built a modular Python-based pipeline for anomaly detection using time-series sensor data.
+- Built a modular Python-based pipeline for anomaly detection using
+  time-series sensor data.
 
-- Engineered robust preprocessing workflows and feature extraction logic for synthetic and open telemetry datasets.
+- Engineered robust preprocessing workflows and feature extraction logic
+  for synthetic and open telemetry datasets.
 
-- Trained and evaluated baseline ML models (e.g., Isolation Forest, XGBoost) and logged experiments using MLflow.
+- Trained and evaluated baseline ML models (e.g., Isolation Forest, XGBoost)
+  and logged experiments using MLflow.
 
-- Developed a FastAPI service to serve real-time inferences via Dockerized REST endpoints.
+- Developed a FastAPI service to serve real-time inferences via Dockerized
+  REST endpoints.
 
-- Designed an automated retraining pipeline using Airflow, simulating data drift and scheduled updates.
+- Designed an automated retraining pipeline using Airflow, simulating
+  data drift and scheduled updates.
 
-- Integrated model versioning, performance tracking, and optionaal drift detection via EvidentlyAI.
+- Integrated model versioning, performance tracking, and optional drift
+  detection via EvidentlyAI.
 
 ## Tech Stack
 
@@ -31,10 +37,11 @@ Prefect), EvidentlyAI
 
 - Simulates a full ML lifecycle: ingestion → training → monitoring → serving
 
-- Reproducible and infrastructure-aligned: emphasizes DevOps and automation for ML
+- Reproducible and infrastructure-aligned: emphasizes DevOps and automation
+  for ML
 
-- Demonstrates strengths in scalable pipeline design, versioning, and real-time systems integration
-
+- Demonstrates strengths in scalable pipeline design, versioning,
+  and real-time systems integration
 
 This project implements a full ML pipeline to detect anomalies in simulated
 sensor (telemetry) data. It demonstrates best practices for machine learning
@@ -52,7 +59,8 @@ infrastructure including:
 
 ```python
 data/                   # Raw and processed data files
-notebooks/              # Exploratory Data Analysis (EDA) and development notebooks
+notebooks/              # Exploratory Data Analysis (EDA) and 
+                        # development notebooks
 src/
   preprocessing/        # Scripts for cleaning and feature extraction
   training/             # Training and evaluation scripts
