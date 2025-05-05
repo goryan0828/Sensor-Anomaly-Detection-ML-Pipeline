@@ -13,35 +13,27 @@ automation, and API deployment.
 - Built a modular Python-based pipeline for anomaly detection using
   time-series sensor data.
 
-- Engineered robust preprocessing workflows and feature extraction logic
-  for synthetic and open telemetry datasets.
+- Engineered robust preprocessing workflows and feature extraction logic for synthetic and open telemetry datasets.
 
-- Trained and evaluated baseline ML models (e.g., Isolation Forest, XGBoost)
-  and logged experiments using MLflow.
+- Trained and evaluated baseline ML models (e.g., Isolation Forest, XGBoost) and logged experiments using MLflow.
 
-- Developed a FastAPI service to serve real-time inferences via Dockerized
-  REST endpoints.
+- Developed a FastAPI service to serve real-time inferences via Dockerized REST endpoints.
 
-- Designed an automated retraining pipeline using Airflow, simulating
-  data drift and scheduled updates.
+- Designed an automated retraining pipeline using Airflow, simulating data drift and scheduled updates.
 
-- Integrated model versioning, performance tracking, and optional drift
-  detection via EvidentlyAI.
+- Integrated model versioning, performance tracking, and optional drift detection via EvidentlyAI.
 
 ## Tech Stack
 
-Python, Pandas, Scikit-learn, XGBoost, MLflow, FastAPI, Docker, Airflow (or
-Prefect), EvidentlyAI
+Python, Pandas, Scikit-learn, XGBoost, MLflow, FastAPI, Docker, Airflow (or Prefect), EvidentlyAI
 
 ## Highlights
 
 - Simulates a full ML lifecycle: ingestion → training → monitoring → serving
 
-- Reproducible and infrastructure-aligned: emphasizes DevOps and automation
-  for ML
+- Reproducible and infrastructure-aligned: emphasizes DevOps and automation for ML
 
-- Demonstrates strengths in scalable pipeline design, versioning,
-  and real-time systems integration
+- Demonstrates strengths in scalable pipeline design, versioning, and real-time systems integration
 
 This project implements a full ML pipeline to detect anomalies in simulated
 sensor (telemetry) data. It demonstrates best practices for machine learning
@@ -67,7 +59,7 @@ src/
   inference/            # Inference logic for deployment
 api/                    # FastAPI app to serve predictions
 configs/                # Config files for parameters, paths
-```python
+```
 
 ## Stack
 
