@@ -48,6 +48,7 @@ infrastructure including:
 - Model serving with FastAPI and Docker
 
 ## Project Structure
+
 ```python
 data/                   # Raw and processed data files
 notebooks/              # Exploratory Data Analysis (EDA) and 
