@@ -48,7 +48,7 @@ infrastructure including:
 - Model serving with FastAPI and Docker
 
 ## Project Structure
-
+```python
 data/                   # Raw and processed data files
 notebooks/              # Exploratory Data Analysis (EDA) and 
                         # development notebooks
@@ -58,6 +58,7 @@ src/
   inference/            # Inference logic for deployment
 api/                    # FastAPI app to serve predictions
 configs/                # Config files for parameters, paths
+```
 
 ## Stack
 
